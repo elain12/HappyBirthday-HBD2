@@ -11,7 +11,7 @@ section
     top: 0;
     left: 0;
     width: 100%;
-    height: 110vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +32,23 @@ section .content
 {
     max-width: 80%;
     color: #fff;
+    margin-bottom: 90%;
+
 }
 section .content h2
 {
+    margin-top: 60%;
     font-size: 3em;
 }
+
+section .content img
+{
+border-radius: 4%;
+}
+
 section .content p
 {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin-bottom: 10%;
+    align-content: space-between;
 }
